@@ -3,56 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Proper use of selectors and basic styling properties, clear implementation of the CSS Box Model, consistent spacing, sizing, and layout styling" />
-    <title>Box Model Demo</title>
+    <meta
+      name="description"
+      content="A simple intro to responsive web design—why it matters and how it works." />
+    <title>Responsive Design Demo</title>
     <!-- Link to external CSS -->
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <h1>My Box Model Demo</h1>
+      <h1>Responsive Web Design</h1>
       <nav class="navbar">
         <a href="#">Home</a>
-        <a href="#">About</a>
+        <a href="#">Why Responsive?</a>
         <a href="#">Contact</a>
       </nav>
     </header>
 
     <main>
       <section class="intro">
-        <h2>Introduction</h2>
+        <h2>What is Responsive Design?</h2>
         <p>
-          This page demonstrates the <strong>CSS Box Model</strong> using margin, padding, and
-          border to adjust spacing and layout.
+          Responsive design makes your website adjust smoothly to different screen sizes—whether
+          it’s a phone, tablet, or desktop. Instead of building separate sites, one flexible layout
+          adapts to all devices.
         </p>
       </section>
 
       <section class="cards">
         <div class="card">
-          <h3>Card One</h3>
-          <p>This is the first card. It has padding inside, margin outside, and a border.</p>
-          <button>Learn More</button>
-        </div>
-
-        <div class="card">
-          <h3>Card Two</h3>
+          <h3>Flexible Layouts</h3>
           <p>
-            This is the second card. Notice how spacing between cards is controlled by the box
-            model.
+            Elements resize and rearrange themselves depending on the screen width, so your site
+            always looks neat.
           </p>
           <button>Learn More</button>
         </div>
 
         <div class="card">
-          <h3>Card Three</h3>
-          <p>This is the third card. Each card has consistent width, padding, and margin.</p>
+          <h3>Media Queries</h3>
+          <p>
+            CSS media queries let you apply different styles at different breakpoints, like making
+            text larger on smaller screens.
+          </p>
+          <button>Learn More</button>
+        </div>
+
+        <div class="card">
+          <h3>Mobile First</h3>
+          <p>
+            A common strategy is to design for mobile first, then enhance for larger screens,
+            ensuring accessibility everywhere.
+          </p>
           <button>Learn More</button>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>&copy; 2025 Box Model Demo | Styled with CSS only</p>
+      <p>&copy; 2025 Responsive Design Demo | Built with CSS</p>
     </footer>
   </body>
 </html>
